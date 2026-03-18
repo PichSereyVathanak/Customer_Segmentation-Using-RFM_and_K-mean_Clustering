@@ -15,6 +15,10 @@ This repository contains a set of Jupyter notebooks that walk through customer s
   - `final_insight.md` - Final insights and conclusions from the analysis
   - `marketing_campign.md` - Marketing campaign recommendations based on clusters
   - `Customer Segmentation Using RFM & K-mean clustering.pdf` - Slide presentation of the project
+- `chart/` - Generated charts and visualizations organized by notebook:
+  - `2_data_exploration/` - Charts from data exploration analysis
+  - `3_RFM_and_Kmean/` - Charts from RFM scoring and K-Means clustering
+  - `4_EDA/` - Charts from cluster exploratory data analysis
 - `notebooks/` - Jupyter notebooks for each analysis step:
   - `1_data_preprocessing.ipynb` - Clean raw data and create a consistent processed dataset
   - `2_data_exploration.ipynb` - Explore trends, time series, and customer behavior
@@ -87,28 +91,3 @@ The dataset is based on the Kaggle "Online Retail" dataset:
 - Plotting can take longer for large data; consider reducing `head()` size or sampling when iterating.
 
 ---
-
-
-## 📄 License
-
-MIT License
-
-Copyright (c) 2026 Customer Segmentation Project
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
